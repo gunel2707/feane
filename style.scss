@@ -1,4 +1,5 @@
  $box-1: #ffbe33;
+ $box-2:red;
  /*#section-home{background-image: url('./hero-bg.jpg');
 width:100%;min-height:100vh; background-size:cover;
 background-repeat: no-repeat;
@@ -30,7 +31,7 @@ background-position: 0%;} */
 
      .navbar-right {
          .btn-color {
-             background-color: $box-1;
+             background-color: $box-2;
          }
      }
 
