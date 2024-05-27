@@ -1,0 +1,118 @@
+/*#section-home{background-image: url('./hero-bg.jpg');
+width:100%;min-height:100vh; background-size:cover;
+background-repeat: no-repeat;
+background-position: 0%;} */
+#section-home .navbar-brand {
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+}
+#section-home .navbar-center li a {
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+}
+#section-home .navbar-center li a:hover {
+  color: #ffbe33 !important;
+  font-family: "Dancing Script", cursive;
+}
+#section-home .navbar-right .btn-color {
+  background-color: #ffbe33;
+}
+#section-home .card-body h3 {
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+}
+#section-home .carousel-indicators button {
+  background-color: #ffbe33;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
+
+.home-end .card-zoom {
+  transition: transform 0.2s;
+}
+.home-end .card-zoom:hover {
+  transform: scale(1.05);
+}
+.home-end .card-body .card-img-left {
+  width: 150px;
+  border: solid 5px;
+  border-color: #ffbe33;
+}
+.home-end .card-body h3,
+.home-end .card-body h4 {
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+}
+.home-end .card-body .home-end-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home-end .card-body .home-end-card-left {
+  margin: auto;
+}
+
+#section-about .col img {
+  min-width: 330px;
+}
+#section-about .col h2 {
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+}
+
+#section-menu {
+  margin-top: 50px;
+}
+#section-menu h1 {
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+}
+#section-menu .card {
+  padding: 0;
+  border-style: none;
+  border-radius: 20px;
+}
+#section-menu .card .card-border {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 30px;
+  border-style: none;
+  background-color: aliceblue;
+}
+#section-menu .card .card-zoom {
+  transition: transform 0.2s;
+}
+#section-menu .card .card-zoom:hover {
+  transform: scale(1.1);
+}
+
+#section-book .col h2 {
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+}
+
+#footer .col h3 {
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  #section-home {
+    height: 100% !important;
+  }
+  #section-home .navbar-right {
+    display: flex;
+    flex-direction: row;
+  }
+  #section-home .carousel-indicators {
+    padding-bottom: 440px;
+  }
+  .card-bg-dark {
+    width: 300px !important;
+  }
+  #section-book .google-map iframe {
+    width: 300px;
+    margin: auto;
+  }
+}/*# sourceMappingURL=style.css.map */
