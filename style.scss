@@ -7,8 +7,6 @@ background-position: 0%;} */
 
 
 
-
-
  #section-home {
 
      .navbar-brand {
@@ -109,7 +107,11 @@ background-position: 0%;} */
          font-weight: bold;
 
      }
-
+button{border-style:none;
+    &:hover{border-radius: 20px;
+        background-color:rgb(20, 20, 20);
+        color: white;}
+}
      .card {
          padding: 0;
          border-style: none;
@@ -168,5 +170,6 @@ background-position: 0%;} */
      .card-bg-dark {
          width: 300px !important;
      }
-     #section-book{.google-map iframe{width: 300px;margin:auto;}}
+    
+     #section-book{.google-map iframe{width: 250px;margin:auto;}}
  }

@@ -15,7 +15,7 @@ background-position: 0%;} */
   font-family: "Dancing Script", cursive;
 }
 #section-home .navbar-right .btn-color {
-  background-color: #ffbe33;
+  background-color: red;
 }
 #section-home .card-body h3 {
   font-family: "Dancing Script", cursive;
@@ -68,6 +68,14 @@ background-position: 0%;} */
   font-family: "Dancing Script", cursive;
   font-weight: bold;
 }
+#section-menu button {
+  border-style: none;
+}
+#section-menu button:hover {
+  border-radius: 20px;
+  background-color: rgb(20, 20, 20);
+  color: white;
+}
 #section-menu .card {
   padding: 0;
   border-style: none;
@@ -112,7 +120,7 @@ background-position: 0%;} */
     width: 300px !important;
   }
   #section-book .google-map iframe {
-    width: 300px;
+    width: 250px;
     margin: auto;
   }
 }/*# sourceMappingURL=style.css.map */
